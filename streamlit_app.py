@@ -39,11 +39,16 @@ about = st.Page(
     icon=":material/person_add:",
 )
 
+cr  = st.Page(         
+    "Background/example.py",
+    title="Copyright",
+    icon=":material/person_add:",
+)
 intro_pages = [intro, facts]
 visualization_pages = [visualization]
 ml_pages = [ml]
 eda_pages = [eda]
-about_pages = [about]
+about_pages = [about, cr]
 
 #st.title("Data Analytics ")
 st.logo("images/horizontal_blue.png", icon_image="images/icon_blue.png")
